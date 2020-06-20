@@ -1,9 +1,9 @@
 # deploy/deploy-shinyapps.R
 # usethis::use_build_ignore("deploy")
 rsconnect::setAccountInfo(
-  Sys.getenv("nelsonstevens"),
-  Sys.getenv("D872A74ED47860EEC2D766621135DE2B"),
-  Sys.getenv("5A6LCpPeeueCcB64Z2uq7gK8LEAyB7U9TX0Qd/Dx")
+  Sys.getenv("SHINYAPPS_ACCOUNT"),
+  Sys.getenv("SHINYAPPS_TOKEN"),
+  Sys.getenv("SHINYAPPS_SECRET")
 )
 rsconnect::deployApp(
   appName = "ShinyCICD",
