@@ -12,6 +12,7 @@ Imports:
     shiny,
     pkgload
 Suggests:
-    testthat
+    testthat,
+    rsconnect
 RoxygenNote: 7.1.0
 Roxygen: list(markdown = TRUE)
